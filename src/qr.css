@@ -1,0 +1,58 @@
+/* styles.css */
+
+.qr-code-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(233, 233, 227);
+    margin-bottom: 50px;
+
+}
+
+.qr-code-container {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 40px;
+}
+
+.qr-code-item {
+    text-align: center;
+    background-color: rgb(255, 248, 248);
+    padding: 40px;
+}
+
+.header {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 4px;
+
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.qr-code-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.download-button {
+    background-color: #000;
+
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #444;
+}
