@@ -408,6 +408,7 @@ p {
 .get-started-button,
 .sign-up,
 .check-out {
+  margin-left:10px;
   padding: 15px;
   background-color: black;
   color: white;
